@@ -1,0 +1,58 @@
+#minn3amthread .m3amtbgimg {
+  width: 480px;
+  padding: 30px; 
+}
+
+#minn3amthread .m3amtbg {
+  width: 480px;
+  background-color: #F5F5F5;
+}
+
+#minn3amthread .m3amtimg {
+  width: 480px;
+  height: 100px;
+  background: center/cover;
+}
+
+#minn3amthread .m3amttitle {
+  width: 460px;
+  padding: 10px;
+  border-bottom: dotted 1px #aaa;
+  font: bold 9px Arial;
+  color: #A82102;
+  text-transform: uppercase;
+  text-align: right;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+#minn3amthread .m3amttxt {
+  width: 440px;
+  padding: 20px;
+  font: 12px Arial;
+  color: #696969;
+  text-align: justify;
+  line-height: 140%;
+}
+
+#minn3amthread .m3amtsubt {
+  width: 470px;
+  padding: 5px;
+  font: bold italic 8px Arial;
+  color: #F5F5F5;
+  text-transform: uppercase;
+  text-align: left;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+#minn3amthread:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minn3amthread:hover:after {
+  content: "MINN-GRAPHICS";
+}

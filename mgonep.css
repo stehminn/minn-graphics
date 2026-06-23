@@ -1,0 +1,78 @@
+.mgpdark b {
+  color: whitesmoke!important;
+}
+
+.mgplight b {
+  color: #525252!important;
+}
+
+.mgplight .mgpbg {
+  background-color: whitesmoke!important;
+}
+
+.mgplight .mgptitle {
+  color: whitesmoke;
+}
+
+.mgplight .mgpbgpost {
+  border-color: #949494!important;
+}
+
+#minngonepost .mgpbg {
+  width: 550px;
+  padding: 50px;
+  background-color: #111;
+}
+
+#minngonepost .mgptitle {
+  width: 350px;
+  padding: 5px;
+  background-color: #aaa;
+  font: italic bold 13px Roboto;
+  font-color: #151515;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+#minngonepost .mgpbgdesc {
+  width: 450px;
+}
+
+#minngonepost .mgpdesc {
+  width: 400px;
+  padding: 10px;
+  font: italic 12px Calibri;
+  color: #ADADAD;
+  text-transform: lowercase;
+  text-align: center;
+  word-spacing: 2px;
+}
+
+#minngonepost .mgpbgpost {
+  width: 500px;
+  padding: 10px;
+  border-left: 1px solid #2A2A2A;
+  border-right: 1px solid #2A2A2A;
+}
+
+#minngonepost .mgptxt {
+  width: 450px;
+  padding: 10px;
+  font: 13px Calibri;
+  color: #757575;
+  text-align: justify;
+  word-spacing: 1px;
+  line-height: 130%;
+}
+
+#minngonepost:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minngonepost:hover:after {
+  content: "MINN-GRAPHICS";
+}

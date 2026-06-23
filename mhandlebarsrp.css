@@ -1,0 +1,83 @@
+#minnhandlebarsrp .mhrpbg1 {
+  width: 430px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#minnhandlebarsrp .mhrpbg2 {
+  width: 410px;
+  padding: 10px;
+}
+
+#minnhandlebarsrp .mhrptitle {
+  width: 450px;
+  margin-left: -10px;
+  font: 25px Georgia black;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+#minnhandlebarsrp .mhrpdesc {
+  width: 350px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font: 10px Arial;
+  color: #9E9E9E;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: justify;
+  line-height: 140%;
+}
+
+#minnhandlebarsrp .mhrpimg {
+  width: 125px;
+  height: 100px;
+  margin-top: 10px;
+  background: center/cover;
+}
+
+#minnhandlebarsrp .mhrptxtbg {
+  width: 125px;
+  height: 100px;
+  margin-top: -10px;
+  position: relative;
+  overflow: auto;
+  opacity: 0;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+#minnhandlebarsrp .mhrptxtbg:hover {
+  opacity: 1;
+}
+
+#minnhandlebarsrp .mhrpinfo {
+  width: 105px;
+  height: 75px;
+  padding: 10px;
+  border-bottom: 5px solid #FD4787;
+  font: 10px Arial;
+  text-align: justify;
+  line-height: 130%;
+}
+
+#minnhandlebarsrp .mhrpname {
+  width: 105px;
+  padding: 10px;
+  font: 18px Georgia black;
+  color: #EB286C;
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: -2px;
+}
+
+#minnhandlebarsrp:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minnhandlebarsrp:hover:after {
+  content: "MINN-GRAPHICS";
+}

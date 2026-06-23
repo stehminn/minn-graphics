@@ -1,0 +1,59 @@
+#minnbatholpost b {
+  color: #B6B6B6!important;
+}
+
+#minnbatholpost .mbhpbg {
+  width: 600px;
+  padding: 25px;
+}
+
+#minnbatholpost .mbhptitle {
+  width: 180px;
+  height: 80px;
+  padding: 15px;
+  font: 20px Archivo Black;
+  color: #151515;
+  text-transform: uppercase;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+#minnbatholpost .mbhsimg {
+  width: 120px;
+  height: 110px;
+  background: center/cover;
+}
+
+#minnbatholpost .mbhpdesc {
+  width: 140px;
+  height: 60px;
+  padding: 25px;
+  font: 8px Arial;
+  color: #9E9E9E;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  text-align: justify;
+  text-transform: uppercase;
+  line-height: 150%;
+}
+
+#minnbatholpost .mbhptxt {
+  width: 500px;
+  padding: 10px;
+  font: 12px Arial;
+  color: #6E6E6E;
+  text-align: justify;
+  word-spacing: 1px;
+  line-height: 140%;
+}
+
+#minnbatholpost:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minnbatholpost:hover:after {
+  content: "MINN-GRAPHICS";
+}

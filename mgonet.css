@@ -1,0 +1,71 @@
+.mgtlight .mgtbg {
+  background-color: whitesmoke!important;
+}
+
+.mgtlight .mgtsub {
+  color: #757575!important;
+}
+
+.mgtdark .mgtsub {
+  color: whitesmoke!important;
+}
+
+#minngonetracker i {
+  color: #757575;
+}
+
+#minngonetracker .mgtbg {
+  width: 450px;
+  padding: 25px;
+  background-color: #111;
+}
+
+#minngonetracker .mgttit {
+  width: 400px;
+  margin-top: 15px;
+  padding: 5px;
+  border-bottom: 1px solid #2A2A2A;
+  font: italic bold 17px Roboto;
+  color: whitesmoke;
+  text-align: left;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+#minngonetracker .mgtbgpost {
+  width: 400px;
+  padding: 5px;
+}
+
+#minngonetracker .mgtsub {
+  padding: 5px;
+  font: italic bold 15px Roboto;
+  margin: 5px;
+  color: #757575;
+  text-align: right;
+  text-transform: lowercase;
+  word-spacing: 2px;
+}
+
+#minngonetracker .mgtdet {
+  width: 388px;
+  margin-left: -7px;
+  padding: 12px;
+  font: 13px Calibri;
+  color: #ADADAD;
+  text-align: justify;
+  word-spacing: 1px;
+  line-height: 130%;
+}
+
+#minngonetracker:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minngonetracker:hover:after {
+  content: "MINN-GRAPHICS";
+}

@@ -1,0 +1,26 @@
+#minnbatholsign .mbhstitle {
+  width: 260px;
+  margin-bottom: 5px;
+  font: 14px Archivo Black;
+  color: #151515;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#minnbatholsign .mbhsimg {
+  width: 260px;
+  height: 100px;
+  background: center/cover;
+}
+
+#minnbatholsign:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minnbatholsign:hover:after {
+  content: "MINN-GRAPHICS";
+}

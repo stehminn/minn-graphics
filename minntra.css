@@ -1,0 +1,79 @@
+/*
+TEMPLATE CRIADO POR MINN, NÃO RETIRE OS CRÉDITOS.
+     https://minn-graphics.tumblr.com/  
+*/
+
+#minntrefletidonaareia .mtratext i {
+  color: whitesmoke;
+}
+
+#minntrefletidonaareia .mtratext b {
+  font-size: 13px;
+  color: #ededed;
+  background-color: #1C5078;
+}
+
+#minntrefletidonaareia .mtrainfo b {
+  font-size: 11px;
+  color: #B89C84;
+}
+
+#minntrefletidonaareia .mtrabg {
+  width: 500px;
+  padding: 25px;
+  background-color: #212121;
+  border-radius: 5px 5px 35px 35px;
+}
+
+#minntrefletidonaareia .mtratitle {
+  width: 480px;
+  padding: 10px;
+  font: italic bold 25px Inter;
+  color: #B89C84;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  border-bottom: solid 2px #1C5078;
+}
+
+#minntrefletidonaareia .mtrasub {
+  width: 320px;
+  background-color: #212121;
+  padding: 15px;
+  margin-top: -25px;
+  font: italic 12px Inter;
+  color: #ededed;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+#minntrefletidonaareia .mtratext {
+  width: 460px;
+  padding: 20px;
+  font: 13px Arial;
+  color: #adadad;
+  text-align: justify; 
+  line-height: 120%;
+  word-spacing: 0.5px;
+}
+
+#minntrefletidonaareia .mtrainfo {
+  width: 480px;
+  padding: 10px;
+  background-color: #1C5078;
+  font: italic 10px Inter;
+  color: #ededed;
+  text-align: right;
+  border-radius: 2px 2px 10px 10px;
+}
+
+#minntrefletidonaareia:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minntrefletidonaareia:hover:after {
+  content: "MINN-GRAPHICS";
+}

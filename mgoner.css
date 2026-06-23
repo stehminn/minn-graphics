@@ -1,0 +1,86 @@
+.mgrdark b {
+ color: whitesmoke!important;
+}
+
+.mgrlight b {
+ color: #757575!important;
+}
+
+#minngonerelationship i {
+ color: #757575!important;
+}
+
+.mgrlight .mgrbg {
+  background-color: whitesmoke!important;
+}
+
+.mgrlight .mgrtit {
+  border-color: #ADADAD!important;
+}
+
+.mgrlight .mgrsub {
+  color: #949494!important;
+}
+
+#minngonerelationship .mgrbg {
+  width: 650px;
+  padding: 25px;
+  background-color: #111;
+}
+
+#minngonerelationship .mgrtit {
+  width: 550px;
+  margin-top: 15px;
+  padding: 5px;
+  border-bottom: 1px solid #2A2A2A;
+  font: italic bold 20px Roboto;
+  color: #aaa;
+  text-align: left;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+#minngonerelationship .mgrbgpost {
+  width: 650px;
+  padding: 5px;
+}
+
+#minngonerelationship .mgrimg {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  background: center/cover;
+  filter: grayscale(1);
+}
+
+#minngonerelationship .mgrsub {
+  padding: 5px;
+  font: italic bold 17px Roboto;
+  color: whitesmoke;
+  text-align: right;
+  text-transform: lowercase;
+  word-spacing: 2px;
+}
+
+#minngonerelationship .mgrdet {
+  width: 390px;
+  margin-left: -7px;
+  padding: 12px;
+  font: 14px Calibri;
+  color: #ADADAD;
+  text-align: justify;
+  word-spacing: 1px;
+  line-height: 130%;
+}
+
+#minngonerelationship:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minngonerelationship:hover:after {
+  content: "MINN @ ASTRO-GRAPHICS";
+}

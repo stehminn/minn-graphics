@@ -1,0 +1,97 @@
+.mgcsdark b {
+  color: whitesmoke;
+}
+
+.mgcslight b {
+  color: #757575;
+}
+
+.mgcslight .mgcsbg {
+  background-color: whitesmoke!important;
+}
+
+#minngonecharstudy .mgcsbg {
+  width: 450px;
+  padding: 25px;
+  background-color: #111;
+}
+
+#minngonecharstudy .mgcsname {
+  width: 400px;
+  margin-top: 15px;
+  padding: 10px;
+  font: italic bold 35px Roboto;
+  color: #aaa;
+  text-align: left;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+}
+
+#minngonecharstudy .mgcsinfo {
+  width: 430px;
+  font: italic bold 15px Roboto;
+  color: #949494;
+  text-align: center;
+  text-transform: lowercase;
+  word-spacing: 2px;
+}
+
+#minngonecharstudy .mgcsimg {
+  width: 410px;
+  height: 220px;
+  margin-top: 20px;
+  background: center/cover;
+  filter: brightness(.8) grayscale(1);
+  transition: all .7s ease-in-out;
+}
+
+#minngonecharstudy .mgcsimg:hover {
+    filter: brightness(1) grayscale(0);
+}
+
+#minngonecharstudy .mgcsbgpost {
+  width: 400px;
+  padding: 5px;
+}
+
+#minngonecharstudy .mgcssub1 {
+  width: 380px;
+  padding: 5px;
+  margin-bottom: 5px;
+  font: italic bold 25px Roboto;
+  color: whitesmoke;
+  text-align: right;
+  text-transform: lowercase;
+}
+
+#minngonecharstudy .mgcssub2 {
+  width: 380px;
+  padding: 5px;
+  margin-bottom: 5px;
+  font: italic bold 25px Roboto;
+  color: whitesmoke;
+  text-align: left;
+  text-transform: lowercase;
+}
+
+#minngonecharstudy .mgcsdet {
+  width: 380px;
+  padding: 12px;
+  font: 14px Calibri;
+  color: #ADADAD;
+  text-align: justify;
+  word-spacing: 1px;
+  line-height: 130%;
+}
+
+#minngonecharstudy:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minngonecharstudy:hover:after {
+  content: "MINN-GRAPHICS";
+}

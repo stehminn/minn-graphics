@@ -1,0 +1,60 @@
+.mgsdark b {
+  color: whitesmoke!important;
+}
+
+.mgslight b {
+  color: #525252!important;
+}
+
+.mgslight .mgbgsign {
+  background-color: whitesmoke!important;
+}
+
+.mgslight .mgstitle {
+  color: whitesmoke!important;
+}
+
+#minngonesign .mgbgsign {
+  width: 225px;
+  padding: 25px;
+  background-color: #111;
+}
+
+#minngonesign .mgstitle {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: -1px;
+  background-color: #aaa;
+  font: italic bold 12px Roboto;
+  color: #151515;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+#minngonesign .mgsimg {
+  width: 100px;
+  height: 100px;
+  margin-left: 6px;
+  background: center/cover;
+}
+
+#minngonesign .mgsextra {
+  width: 85px;
+  padding: 15px;
+  font: 10px Calibri;
+  color: #ADADAD;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+#minngonesign:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minngonesign:hover:after {
+  content: "MINN-GRAPHICS";
+}

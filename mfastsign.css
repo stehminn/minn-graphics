@@ -1,0 +1,23 @@
+#minnfastsign .mfsimg {
+  width: 60px;
+  height: 120px;
+  background: center/cover;
+  border: 1px solid #6E6E6E;
+  filter: brightness(.8) grayscale(.4);
+  transition: all .7s ease-in-out;
+}
+
+#minnfastsign .mfsimg:hover {
+    filter: brightness(1) grayscale(0);
+}
+
+#minnfastsign:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minnfastsign:hover:after {
+  content: "MINN-GRAPHICS";
+}

@@ -1,0 +1,168 @@
+#minnghosttracker .mgtbgimg {
+  width: 450px;
+  height: 450px;
+  background: center/cover;
+  padding: 60px;
+}
+
+#minnghosttracker .mgtbg {
+  width: 450px;
+  height: 450px;
+  background: #151515;
+  position: center;
+}
+
+#minnghosttracker .mgtlbg {
+  width: 170px;
+  height: 430px;
+  padding: 10px;
+  background-color: #0D0D0D;
+  border-right: 1px solid #535446;
+}
+
+#minnghosttracker .mgtgallery {
+    display: flex;
+    gap: 2px;
+}
+
+#minnghosttracker .mgtimg {
+  width: 50px;
+  height: 50px;
+  background: center/cover;
+  margin: 1px;
+}
+
+#minnghosttracker .mgttitle {
+  width: 160px;
+  padding: 5px;
+  font: bold 35px Libre Caslon Display;
+  color: #c22424;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: .4s;
+  display: inline-block;
+  filter: blur(5px);
+}
+
+#minnghosttracker .mgttitle:hover {
+  letter-spacing: 3px;
+  filter: blur(1px);
+}
+
+#minnghosttracker .mgtdesc {
+  width: 150px;
+  padding: 10px;
+  border-top: 2px solid #AD5F5F;
+  border-bottom: 2px solid #AD5F5F;
+  font: 12px Arial;
+  color: #797979;
+  text-align: justify;
+  line-height: 130%;
+}
+
+#minnghosttracker .mgtinfo {
+  width: 160px;
+  padding: 5px;
+  font: bold 13px Libre Caslon Display;
+  color: #c22424;
+  text-align: justify;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+}
+
+#minnghosttracker .mgtrbg {
+  width: 255px;
+  height: 440px;
+  overflow: auto;
+}
+
+#minnghosttracker .mgtrbg::-webkit-scrollbar {
+  width: 3px;
+  background: #151515;
+}
+
+#minnghosttracker .mgtrbg::-webkit-scrollbar-thumb {
+    background: #535446;
+}
+
+#minnghosttracker input[type="checkbox"] {
+    display: none;
+}
+
+#minnghosttracker .mgtcat {
+  display: block;
+  width: 230px;
+  padding: 10px;
+  font: bold 20px Libre Caslon Display;
+  color: #797979;
+  text-decoration: overline 2px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .4s;
+  opacity: .6;
+  display: inline-block;
+  filter: blur(.5px);
+}
+
+#minnghosttracker .mgtcat:hover {
+  letter-spacing: 3px;
+  opacity: 1;
+  filter: blur(0px);
+}
+
+#minnghosttracker .mgtcontent {
+  max-height: 0;
+  overflow: hidden;
+  transition: all .5s ease;
+}
+
+#minnghosttracker input:checked + .mgtcat + .mgtcontent {
+  max-height: 500px;
+  margin-bottom: 10px;
+}
+
+#minnghosttracker input:checked + .mgtcat {
+  letter-spacing: 2px;
+  opacity: 1;
+  filter: blur(.5px);
+}
+
+#minnghosttracker .mgtsubcat {
+  width: 200px;
+  padding: 10px;
+  font: italic 18px Libre Caslon Display;
+  color: #AD5F5F ;
+  text-align: justify;
+  text-transform: lowercase;
+}
+
+#minnghosttracker .mgtsubcat a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#minnghosttracker .mgtdet {
+  width: 180px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: -10px;
+  font: 12px Arial;
+  color: #797979;
+  text-align: justify;
+  line-height: 130%;
+}
+
+#minnghosttracker:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minnghosttracker:hover:after {
+  content: "MINN-GRAPHICS";
+}
