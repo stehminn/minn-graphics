@@ -1,0 +1,22 @@
+#minncreepsign .mcstitle {
+  width: 200px;
+  padding: 10px;
+  background-color: #0D0D0D;
+  border-top: 1px solid #7D7D7D;
+  font: italic 10px Georgia;
+  color: #B5B5B595;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#minncreepsign:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minncreepsign:hover:after {
+  content: "MINN-GRAPHICS";
+}

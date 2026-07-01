@@ -1,0 +1,43 @@
+.mcttxt b {
+  color: #7D7D7D;
+}
+
+.mcttxt i {
+  color: #B5B5B595;
+}
+
+#minncreepthread .mctbg {
+  width: 550px;
+  padding: 50px;
+  background-color: #0D0D0D;
+}
+
+#minncreepthread .mctinfo {
+  width: 450px;
+  margin-left: 50px;
+  font: italic 12px Georgia;
+  color: #B5B5B595;
+  text-transform: uppercase;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+#minncreepthread .mcttxt {
+  width: 500px;
+  padding-top: 30px;
+  font: 14px Calibri;
+  color: #4D4D4D;
+  text-align: justify;
+  line-height: 130%;
+}
+
+#minncreepthread:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minncreepthread:hover:after {
+  content: "MINN-GRAPHICS";
+}
