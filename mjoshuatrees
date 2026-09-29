@@ -1,0 +1,37 @@
+.mjsstlight .mjtstitle {
+  background-color: #e6e6e6!important;
+  color: #151515!important;
+}
+
+#minnjoshuatreesign .mjtstitle {
+  width: 60px;
+  padding: 5px;
+  margin-top: 90px;
+  margin-left: -60px;
+  background-color: #151515;
+  border-right: 10px solid #572702;
+  font: italic 10px Times New Roman;
+  color: #D9CECA;
+  text-transform: lowercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#minnjoshuatreesign .mjtsimg {
+  width: 100px;
+  height: 100px;
+  background: center/cover;
+  border-radius: 100%;
+  border: 10px solid #572702;
+}
+
+#minnjoshuatreesign:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minnjoshuatreesign:hover:after {
+  content: "MINN-GRAPHICS";
+}
