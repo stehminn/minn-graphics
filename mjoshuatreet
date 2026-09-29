@@ -1,0 +1,85 @@
+.mjtttxt b {
+  color: #c2c2c2;
+}
+
+.mjtttxt i {
+  color: #b8b8b8;
+}
+
+.mjsttlight .mjtttxt b {
+  color: #737373!important;
+}
+
+.mjsttlight .mjtttxt i {
+  color: #616161!important;
+}
+
+.mjsttlight .mjttbg {
+  background-color: #e6e6e6!important;
+}
+
+.mjsttlight .mjtttitle {
+  color: #151515!important;
+}
+
+.mjsttlight .mjttsubtitle {
+  color: #151515!important;
+}
+
+
+#minnjoshuatreethread .mjttbg {
+  width: 500px;
+  padding: 50px;
+  background-color: #151515;
+}
+
+#minnjoshuatreethread .mjtttitle {
+  width: 360px;
+  padding: 15px;
+  border-left: 60px solid #572702;
+  font: italic 12px Times New Roman;
+  color: #D9CECA;
+  text-transform: lowercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#minnjoshuatreethread .mjtttxt {
+  width: 450px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font: 13px Arial;
+  color: #949494;
+  text-align: justify;
+  word-spacing: 1px;
+  line-height: 140%;
+}
+
+#minnjoshuatreethread .mjttsubtitle {
+  width: 200px;
+  padding: 15px;
+  font: italic 12px Times New Roman;
+  color: #D9CECA;
+  text-transform: lowercase;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+#minnjoshuatreethread .mjttimg {
+  width: 50px;
+  height: 50px;
+  background: center/cover;
+  border: 10px solid #572702;
+  border-radius: 100%;
+}
+
+#minnjoshuatreethread:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#minnjoshuatreethread:hover:after {
+  content: "MINN-GRAPHICS";
+}
